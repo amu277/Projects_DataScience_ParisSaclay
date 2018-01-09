@@ -1,3 +1,4 @@
+% Finds edges of capillary networks in images, computes area of vessels by clustering, in order to examine if capillary network structure can distinguish between healthy and cancerous tissue.
 %Read in your data....
 %clear all
 
