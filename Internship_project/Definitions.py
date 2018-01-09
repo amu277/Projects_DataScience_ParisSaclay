@@ -19,7 +19,7 @@ def transform_units(df, acc_ind, gyr_ind, mag_ind):
 
     else:
 
-        acc_sens = 0.122  # ACCELEROMETER_SENSITIVITY = 0.122 mg / LSB sensitivity
+        acc_sens = 0.1  # ACCELEROMETER_SENSITIVITY = 0.xxx mg / LSB sensitivity
         # conversion of accelerometer data from mG to G
         df['acc_x'] = (df['acc_x'] * acc_sens) / 1000
         df['acc_y'] = (df['acc_y'] * acc_sens) / 1000
@@ -36,7 +36,7 @@ def transform_units(df, acc_ind, gyr_ind, mag_ind):
 
     else:
 
-        gyr_sens = 70  # GYROSCOPE_SENSITIVITY = 70 mdeg / sec / LSB
+        gyr_sens = 50  # GYROSCOPE_SENSITIVITY = xx mdeg / sec / LSB
 
         df['gyr_x'] = (df['gyr_x'] * gyr_sens) / 1000
         df['gyr_y'] = (df['gyr_y'] * gyr_sens) / 1000
@@ -49,20 +49,20 @@ def transform_units(df, acc_ind, gyr_ind, mag_ind):
     else:  # Convert magnetometer uncalibrated, sensitivity applied
 
         # Offsets
-        off_x = 652.250732421875
-        off_y = -39.21294021606445
-        off_z = 17.11958122253418
+        off_x = off_x
+        off_y = off_y
+        off_z = off_z
 
         # Gains
-        gain_yx = 0.051862746477127075
-        gain_x = 1.4430811405181885
-        gain_zy = -0.017628459259867668
-        gain_xz = 0.07353414595127106
-        gain_y = 1.6025787591934204
-        gain_yz = -0.035460613667964935
-        gain_xy = 0.04795261099934578
-        gain_zx = 0.04007400572299957
-        gain_z = 0.7521066665649414
+        gain_yx = gain_yx
+        gain_x = gain_x
+        gain_zy = gain_zy
+        gain_xz = gain_xz
+        gain_y = gain_y
+        gain_yz = gain_yz
+        gain_xy = gain_xy
+        gain_zx = gain_zx
+        gain_z = gain_z
 
         # New magnetometer values = (Mag - offsets) * Gains
 
