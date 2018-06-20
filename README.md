@@ -1,5 +1,5 @@
 # projects_data_science
-Projects for data science master (ecole polytechnique | paris saclay) and freelance
+Projects for data science master (ecole polytechnique | paris saclay) 
 
 Files included:
 DataCamp = Submission for Data Camp challenge; goal is to identify molecules based on their spectra (classification) as well predict their concentration (regression).
