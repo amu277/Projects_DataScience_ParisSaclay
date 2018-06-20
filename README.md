@@ -10,4 +10,4 @@ Internship_project = Includes some of the definitions used to process sensor dat
 
 spark_fpgrowth = An example using pySpark to apply mapReduce and an association mining algorithm available in Spark to cluster authors that frequently published scientific papers together.
 
-Betfair = Miscellaneous project done in my free time extracting market data from the Premier League in order to infer outcomes of football/soccer matches.
+
