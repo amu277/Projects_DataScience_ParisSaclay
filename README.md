@@ -1,4 +1,4 @@
-# Projects - Data Science - Paris Saclay master
+# Projects - M2 Data Science 
 Projects for Data Science master (Ecole Polytechnique | Paris Saclay) 
 
 Files included: <p>
