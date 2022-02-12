@@ -1,5 +1,5 @@
-# projects_data_science
-Projects for data science master (ecole polytechnique | paris saclay) 
+# Projects - Data Science - Paris Saclay master
+Projects for Data Science master (Ecole Polytechnique | Paris Saclay) 
 
 Files included: <p>
   
