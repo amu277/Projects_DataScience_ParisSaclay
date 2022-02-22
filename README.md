@@ -4,7 +4,7 @@ Projects for Data Science master (Ecole Polytechnique | Paris Saclay)
 Files included: <p>
   
 Drug Spectra Analysis 
-  - Submission for Data Camp challenge; goal is to identify molecules based on their spectra (classification) as well predict their concentration (regression). 
+  - Submission for Data Camp challenge; goal is to identify molecules based on their spectra (classification) as well predict their concentration (regression)
  
 K-Means Streaming 
   - Lab analyzing kmeans clustering modifications on grouping people by health characteristics
